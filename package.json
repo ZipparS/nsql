@@ -1,0 +1,18 @@
+{
+  "name": "nodesql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodeSQL.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "nsql cli": "node ./nodeSQL.js type=cli",
+    "nsql server": "node ./nodeSQL.js type=server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.1"
+  }
+}
